@@ -1,11 +1,19 @@
 {
     "devDependencies": {
-        "@symfony/stimulus-bridge": "^1.1.0",
-        "@symfony/webpack-encore": "^0.32.0",
-        "core-js": "^3.0.0",
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "@symfony/webpack-encore": "^0.33.0",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "autoprefixer": "9",
+        "core-js": "^3.8.3",
+        "monaco-editor": "^0.21.3",
+        "monaco-editor-webpack-plugin": "^2.1.0",
+        "node-sass": "^5.0.0",
+        "postcss": "7",
+        "postcss-loader": "4.0.0",
         "regenerator-runtime": "^0.13.2",
-        "stimulus": "^2.0.0",
-        "webpack-notifier": "^1.6.0"
+        "sass-loader": "^10.1.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+        "webpack-notifier": "^1.12.0"
     },
     "license": "UNLICENSED",
     "private": true,

@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta property="og:title" content="Skript Codespace" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ path('home') }}" />
+<meta property="og:image" content="" />
+<meta property="og:description" content="Espace de développement offrant de nombreux outils permettant un développement rapide et efficace incluant l'éxécution de votre code." />
+<meta name="theme-color" content="#4286f4">
+<link rel="icon" type="image/png" href="">
+<link rel="shortcut icon" type="image/x-icon" href="">
+{% block stylesheets %}
+    {{ encore_entry_link_tags('tailwindcss') }}
+    {{ encore_entry_link_tags('monaco') }}
+    {{ encore_entry_link_tags('fontawesome') }}
+{% endblock %}
